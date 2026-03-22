@@ -74,7 +74,7 @@ export function Home() {
             <li>≈25 МВт номіналу на кластер</li>
             <li>Автономна робота вузлів і взаємна підтримка</li>
           </ul>
-            <img src='public/heatmap.jpg' className='w-full pt-2 max-w-140 mx-auto'></img>
+            <img src='/heatmap.jpg' className='w-full pt-2 max-w-140 mx-auto'></img>
           <p className="mt-4 text-center text-xs text-slate-500">
             На демо-карті — 9 міських адмінкластерів Харкова; концепція масштабується до повної сітки вузлів.
           </p>
