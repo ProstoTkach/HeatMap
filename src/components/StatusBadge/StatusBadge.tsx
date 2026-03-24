@@ -12,7 +12,7 @@ const cfg: Record<
     dot: 'bg-emerald-400',
   },
   high: {
-    label: 'Висока нагрузка',
+    label: 'Високе навантаження',
     ring: 'ring-amber-400/50',
     bg: 'bg-amber-500/15',
     dot: 'bg-amber-400',

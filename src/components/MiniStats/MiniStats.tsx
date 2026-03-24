@@ -10,7 +10,7 @@ export function MiniStats({
 }: {
   data: DistrictRuntime
   small?: boolean
-  /** Лише % нагрузки без підписів (мобільна карта) */
+  /** Лише % навантаження без підписів (мобільна карта) */
   mapMobile?: boolean
 }) {
   if (mapMobile) {

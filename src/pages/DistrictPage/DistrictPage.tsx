@@ -51,7 +51,7 @@ export function DistrictPage() {
         </div>
         <dl className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <div className="rounded-xl border border-white/5 bg-black/25 p-4">
-            <dt className="text-xs uppercase tracking-wide text-slate-500">Поточна нагрузка</dt>
+            <dt className="text-xs uppercase tracking-wide text-slate-500">Поточне навантаження</dt>
             <dd className="mt-1 font-mono text-2xl text-cyan-300">{data.loadPct.toFixed(1)}%</dd>
           </div>
           <div className="rounded-xl border border-white/5 bg-black/25 p-4">

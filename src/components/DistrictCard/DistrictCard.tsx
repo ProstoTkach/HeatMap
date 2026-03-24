@@ -29,7 +29,7 @@ export function DistrictCard({
       </div>
       <dl className="mt-3 grid grid-cols-2 gap-2 text-sm">
         <div>
-          <dt className="text-slate-500">Нагрузка</dt>
+          <dt className="text-slate-500">Навантаження</dt>
           <dd className="font-mono text-cyan-300">{data.loadPct.toFixed(0)}%</dd>
         </div>
         <div>

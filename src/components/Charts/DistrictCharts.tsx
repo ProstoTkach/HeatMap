@@ -76,7 +76,7 @@ export function DistrictCharts({
 
   return (
     <div className="grid gap-4 md:grid-cols-2" data-tour="district-charts">
-      <Panel title="Історія нагрузки (%)" delay={0} dataTour="district-chart-load">
+      <Panel title="Історія навантаження (%)" delay={0} dataTour="district-chart-load">
         <AreaChart data={loadD} margin={{ top: 6, right: 6, left: 0, bottom: 0 }}>
           <defs>
             <linearGradient id="gLoad" x1="0" y1="0" x2="0" y2="1">

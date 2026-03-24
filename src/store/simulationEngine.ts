@@ -139,7 +139,7 @@ export function maybeSpawnEvent(
     events.push({
       id: `${now}-u`,
       districtId: id,
-      message: `Зростання нагрузки: ${randomIncidentMessage()}`,
+      message: `Зростання навантаження: ${randomIncidentMessage()}`,
       at: now,
     })
     return { districts: d, events, toasts }
@@ -153,7 +153,7 @@ export function maybeSpawnEvent(
     events.push({
       id: `${now}-d`,
       districtId: id,
-      message: `Зниження нагрузки: ${randomIncidentMessage()}`,
+      message: `Зниження навантаження: ${randomIncidentMessage()}`,
       at: now,
     })
     return { districts: d, events, toasts }

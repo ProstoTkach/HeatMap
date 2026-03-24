@@ -36,7 +36,7 @@ export function MapPage() {
           <span className="flex items-center gap-1.5 text-slate-300 sm:gap-2">
             <span className="size-2.5 rounded-sm bg-amber-400/90 sm:size-3" />
             <span className="sm:hidden">Пік</span>
-            <span className="hidden sm:inline">Висока нагрузка</span>
+            <span className="hidden sm:inline">Високе навантаження</span>
           </span>
           <span className="flex items-center gap-1.5 text-slate-300 sm:gap-2">
             <span className="size-2.5 rounded-sm bg-rose-500/90 sm:size-3" />

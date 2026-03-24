@@ -14,7 +14,7 @@ const SEED_EVENTS_KEY = 'kharkiv-heat-hub-seeded'
 interface EnergyState {
   districts: Record<string, DistrictRuntime>
   events: NetworkEvent[]
-  /** Середня нагрузка по місту для міні-графіка */
+  /** Середня навантаження по місту для міні-графіка */
   cityLoadHistory: HistoryPoint[]
   simTime: number
   simulationOn: boolean
@@ -145,7 +145,7 @@ export function statusLabel(s: DistrictRuntime['status']): string {
     case 'stable':
       return 'Стабільно'
     case 'high':
-      return 'Висока нагрузка'
+      return 'Високе навантаження'
     case 'problem':
       return 'Проблема / атака'
     default:
